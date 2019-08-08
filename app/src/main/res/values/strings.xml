@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Huriyo</string>
+
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+
+    <string name="facebook_app_id">912589818915409</string>
+    <string name="fb_login_protocol_scheme">fb912589818915409</string>
+
+    <string name="no_imternet">No internet connection available.</string>
+    <string name="something_went_wrong">Something went wrong, Please try again later!</string>
+    <string name="picker_select_image">Choose a Photo </string>
+
+    <!--main screen-->
+    <string name="slogan_huriyo">Be Virtual, Be Global</string>
+    <string name="slogan_join_using">Quick Join Huriyo using</string>
+    <string name="login">Login</string>
+    <string name="signup">SIGNUP</string>
+    <string name="fp">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone No.</string>
+    <string name="fp2">Forgot Password</string>
+    <!--register screen-->
+    <string name="emailed">Email</string>
+    <string name="phoneed">Phone No.</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="about_me">About Me</string>
+
+    <string name="verify">Verify</string>
+    <string name="caption">Add caption</string>
+
+    <string name="verify_phone">Verify your Phone No.</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verification_code">Verification code</string>
+    <string name="verify_code_sent">We have sent verification code via SMS to +91-99999 99999</string>
+    <string name="verify_msg">We found that you might have issue with network. Please contact to support@huriyo.com for further assistance</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_newPost">New Post</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_support">Support</string>
+    <string name="comments">Reviews</string>
+    <string name="cancel">Cancel</string>
+    <string name="recent_search">Recent Searches</string>
+
+    <string name="publish_post">Publish</string>
+    <string name="type_text_here">Type your text here</string>
+    <string name="type_title_here">Type title here</string>
+    <string name="type_msg_here">Type your message here</string>
+    <string name="type_review_here">Write your review text here</string>
+    <string name="type_msg_err">Please enter message</string>
+    <string name="type_msg_title">Please enter title</string>
+
+    <!--Signup screen-->
+    <string name="error_name">Please enter your username</string>
+    <string name="error_fname">Please enter your firstname</string>
+    <string name="error_lname">Please enter your lastname</string>
+    <string name="error_email">Please enter a valid email address</string>
+    <string name="error_password">Please enter a valid password</string>
+    <string name="error_password2">Require 8 characters</string>
+    <string name="error_old_password">Please enter correct Old Password</string>
+    <string name="error_cpassword2">Confirm passwords do not match</string>
+    <string name="error_phoneno">Please enter a valid phone number</string>
+    <string name="error_new_confirm_password">New passwords do not match</string>
+
+    <string name="setting">Setting</string>
+    <string name="notification">Notification : </string>
+
+    <string name="push_notification">Push notification </string>
+    <string name="email_notification">Email notification </string>
+    <string name="sms_notification">SMS notification </string>
+
+    <string name="upload_quality">Upload Quality :</string>
+    <string name="low_quality">Low</string>
+    <string name="medi_quality">Medium</string>
+    <string name="high_quality">High</string>
+
+    <string name="clear_history">Clear Search History</string>
+    <string name="change_password">Change Password</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="logout">Logout</string>
+
+    <string name="person_details">Personal Details</string>
+    <string name="total_foll">Total Connects, Followers</string>
+    <string name="experience">Experience</string>
+
+    <string name="friends">Connects</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+
+    <string name="err_post_text">Please enter post test</string>
+
+
+    <string name="ex_job_title">Job Title</string>
+    <string name="ex_cmpny_name">Company Name</string>
+    <string name="ex_start_date">Start Date</string>
+    <string name="ex_end_date">End Date</string>
+    <string name="ex_curr_working">Currently working here</string>
+
+    <string name="select_bussiness_category">Setup bussiness Info</string>
+    <string name="select_bussiness_category_desc">By selecting your business category, you will get more relevant post, connect suggestion and many more.</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="skip">Skip </string>
+    <string name="continues">Continue</string>
+    <string name="add_new_experience">Add New Experience</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="location_updated_message">Location updated</string>
+
+
+    <string name="post_share">Share Post</string>
+    <string name="post_repost">Repost this Post</string>
+    <string name="comment_repost">Repost this Comment</string>
+    <string name="delete_comment">Delete comment</string>
+    <string name="fp_request">We will send you reset password instruction to your registered email address/Phone number.</string>
+
+    <string name="cHistory_title">Are you sure you want to delete your search history?</string>
+    <string name="cHistory_message">Deleted search history can not be recoverable.</string>
+
+    <string name="no_user">No User available, Please try again!</string>
+    <string name="no_post">No Post available, Please try again!</string>
+    <string name="no_friends">No Connects available, Please try again!</string>
+    <string name="no_friends_req">No Connects requests available, Please try again!</string>
+    <string name="no_notification">No Notifications available, Please try again!</string>
+    <string name="no_userrating">No User rating available, Please try again!</string>
+
+    <string name="leave_msg">Leave a message</string>
+    <string name="send">Send</string>
+    <string name="who_we_are">Who we are?</string>
+    <string name="about_us_content">Huriyo is promotional portal. Our aim is to create and provide a specialized promotional platform to fashion industry of India.\
+        n
+Where one can open their online store and can promote their business. Our aim is not to become and remain as just promotional portal. Our aim is to provide you the platform by using which you can stand compete with our competitors. Simply we welcome you to online market place where you cam do whatever you want with your business like promotion, selling or make business community.</string>
+
+    <string name="old_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+
+    <string name="password_change1">Password changed successfully</string>
+    <string name="password_change2">Please login again using new password</string>
+
+    <string name="write_review">Write a Rating comment</string>
+
+    <string name="register_p_p">By registering you have read and agreed to the Terms of Use and Privacy Policy</string>
+
+    <string name="bussiness_name">Business Name</string>
+    <string name="bussiness_desc">Business Description</string>
+    <string name="write_vivers">Bussiness Category</string>
+    <string name="write_location">Business Location</string>
+    <string name="select_category_err">Please select category</string>
+    <string name="enter_bussiness_name">Please enter bussiness name</string>
+    <string name="no_buss_users">No bussiness users available</string>
+    <string name="login_needed">Login or Signup required</string>
+    <string name="do_sign_in_now">Do you want to login or signup with Huriyo now?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="give_us_review">Give us a review</string>
+    <string name="share_with_friends">Share with friends</string>
+</resources>

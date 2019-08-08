@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/llMain"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.huriyo.Utility.CircleImageView
+        android:layout_width="40dp"
+        android:id="@+id/ivProfile"
+        android:layout_height="40dp"
+        android:src="@mipmap/avatar"
+        app:civ_border_color="@color/statusbar_color"
+        app:civ_border_width="3dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Dhaval"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:lines="1"
+            android:text="Dhaval"
+            android:textColor="@color/gray_basic"
+            android:textSize="14sp" />
+
+        <View
+            android:background="@color/gray_basic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="0.5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

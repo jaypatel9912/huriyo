@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.huriyo.Fragment.HomeFragment">
+
+    <EditText
+        android:id="@+id/edPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="@drawable/gray_border_drawable"
+        android:gravity="start"
+        android:hint="@string/type_text_here"
+        android:imeOptions="actionDone"
+        android:lines="4"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/gray_basic"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/llGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/picture" />
+
+            <TextView
+                android:id="@+id/tvCounter"
+                android:layout_marginLeft="20dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/round_counter"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="11sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/video_camera" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPublish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_green_button_drawable"
+            android:text="@string/publish_post"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

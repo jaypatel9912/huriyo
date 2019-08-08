@@ -1,0 +1,38 @@
+<com.huriyo.Utility.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/videoImg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/video_btn_drawable"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_video_play" />
+
+        <ImageView
+            android:id="@+id/checkImg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_check" />
+
+    </FrameLayout>
+
+</com.huriyo.Utility.SquareRelativeLayout>
